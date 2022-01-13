@@ -14,14 +14,12 @@ html, body, a, div, h1, h2, h3, h4, h5, h6, section, ul, li {
     font-family: var(--font-rubik);
     margin: 0;
     padding: 0;
-    position: absolute;
     list-style: none;
 }
 
-a:link :hover :visited :active :focus {
-    font-weight: bold;
+a, a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-    color: black;
+    color: var(--color-blue);
     cursor: pointer;
 }
 

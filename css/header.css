@@ -10,7 +10,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width: 50vw;
     height: 14vh;
 }
@@ -20,8 +20,5 @@ header > h1 {
     display: flex;
     align-items: center;
     justify-content: start;
-}
-
-img {
     margin-left: 5%;
 }
