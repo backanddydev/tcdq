@@ -1,0 +1,13 @@
+@import '/css/reset.css';
+.container {
+    justify-content: end;
+    align-items: flex-end;
+}
+.section-main {
+    justify-content: start;
+    align-items: center;
+}
+
+aside {
+    margin-left: 5%;
+}

@@ -1,18 +1,10 @@
-@import "/css/reset.css";
+@import '/css/reset.css';
 
 .container {
     justify-content: end;
     align-items: flex-end;
 }
 .section-main {
-    background: linear-gradient(
-        90deg,
-        var(--color-blue) 0%,
-        var(--color-purple) 30%
-    );
-    width: 100vw;
-    height: 90vh;
-    display: flex;
     justify-content: end;
     align-items: center;
 }
