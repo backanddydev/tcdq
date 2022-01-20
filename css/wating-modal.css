@@ -1,0 +1,25 @@
+@import "/css/reset.css";
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 5%;
+    color: var(--color-purple);    
+}
+
+.waiting > p {
+    text-align: center;
+    color: var(--color-black)
+
+}
