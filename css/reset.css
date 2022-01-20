@@ -22,10 +22,12 @@ html, body, a, div, h1, h2, h3, h4, h5, h6, section, ul, li, p, main, button, im
 a, a:link, a:visited, a:hover, a:active {
     text-decoration: none;    
     cursor: pointer;
+    background: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-orbitron);
+    font-weight: bolder;
 }
 
 .container {
@@ -44,3 +46,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 90vh;
     display: flex;
 }
+
+.modal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: var(--font-orbitron);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bolder;    
+    color: var(--color-purple);
+    padding: 10px;
+}
+

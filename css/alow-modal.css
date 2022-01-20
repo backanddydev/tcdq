@@ -1,0 +1,43 @@
+@import "/css/reset.css";
+
+.container {
+    justify-content: center;
+}
+
+.allow, .modal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-purple);
+    background-color: #ffffff;
+    padding: 7%;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    font-size: 1.8rem;
+}
+
+.allow-camera {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.warning-paragraph {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: var(--color-black);
+    padding: 3%;
+}
+
+.btn-allow {
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--color-blue);
+    font-family: var(--font-rubik);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+

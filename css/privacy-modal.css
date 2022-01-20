@@ -1,0 +1,49 @@
+@import "/css/reset.css";
+
+.container {
+    justify-content: center;
+    align-content: center;
+}
+.modal {
+    width: 60vw;
+    height: 80vh;
+}
+
+.privacy {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.privacy > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 10%;
+    padding: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin: 5%;
+}
+
+.btn-privacy {
+    width: 30%;
+    height: 7%;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: var(--color-blue);
+    margin: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.privacy > .close {
+    color: #ffffff;
+}
